@@ -14,7 +14,7 @@ int main() {
         break;
         case 'F' : printf("Fail");
         break;
-        default : ("Invalid grade");
+        default : ("invalid grade");
     }
     return 0;
 }
