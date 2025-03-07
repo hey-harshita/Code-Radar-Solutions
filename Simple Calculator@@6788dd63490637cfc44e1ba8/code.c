@@ -12,8 +12,8 @@ int main() {
         case '*' : printf("%d", a*b);
         break;
         case '/' :
-            if (b==0 || a%b!=0) printf("Error");
-            else printf("%d", a/b);
+            if (b==0) printf("Error");
+            else printf("%f", a/b);
         break;
     }
     return 0;
