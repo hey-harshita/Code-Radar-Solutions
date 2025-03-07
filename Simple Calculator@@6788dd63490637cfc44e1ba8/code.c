@@ -5,9 +5,9 @@ int main() {
     scanf("%d %d %d", &a, &b, &c);
     switch (c) {
         case '+' : printf("%d", a+b);
-        break 0;
+        break;
         case '-' : printf("%d", a-b);
-        break 0;
+        break;
         case '*' : printf("%d", a*b);
         break;
         case '/' : printf("%d", a/b);
