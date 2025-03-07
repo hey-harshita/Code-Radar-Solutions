@@ -12,7 +12,7 @@ int main() {
         case '*' : printf("%d", a*b);
         break;
         case '/' :
-            if (b==0 || a%b!=0) printf("Error");
+            if (b==0 || a%b!=0) printf("error");
             else printf("%d", a/b);
         break;
     }
