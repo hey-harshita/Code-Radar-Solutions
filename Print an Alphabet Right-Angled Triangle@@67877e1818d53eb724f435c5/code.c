@@ -7,6 +7,7 @@ int main() {
         char final='A';
         for (char j=1; j<=i; j++) {
             printf("%c ", final);
+            final++;
         }
         printf("\n");
     }
