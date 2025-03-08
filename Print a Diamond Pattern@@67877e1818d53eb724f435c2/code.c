@@ -6,7 +6,7 @@ int main() {
     int b=a*2-1;
     for (int i=1; i<=b; i++) {
         for (int j=1; j<=b; j++) {
-            if (j<=a-i || j>=b+i-a) printf(" ");
+            if (j<=a-i || j>=b+1+i-a) printf(" ");
             else printf("*");
         }
         printf("\n");
