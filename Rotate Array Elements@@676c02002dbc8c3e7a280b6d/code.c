@@ -30,12 +30,12 @@ int main() {
         scanf("%d", &arr[i]);
     }
     
-    scanf("%d\n", &k);
+    scanf("%d", &k);
     
     rotateArray(arr, n, k);
     
     for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]);
+        printf("%d\n", arr[i]);
     }
     
     return 0;
