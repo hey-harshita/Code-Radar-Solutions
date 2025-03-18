@@ -30,7 +30,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
     
-    scanf("%d", &k);
+    scanf("%d\n", &k);
     
     rotateArray(arr, n, k);
     
