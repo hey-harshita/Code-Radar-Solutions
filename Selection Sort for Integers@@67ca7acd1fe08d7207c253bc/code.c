@@ -5,10 +5,11 @@ void selectionSort(int arr[], int n) {
             if (arr[j] < arr[min_idx]) {
                 min_idx = j;
             }
-        if (min_idx != i);
-        int temp = arr[i];
-        arr[i] = arr[min_idx];
-        arr[min_idx] = temp;
+        }
+        if (min_idx != i) {
+            int temp = arr[i];
+            arr[i] = arr[min_idx];
+            arr[min_idx] = temp;
         }
     }
 }
