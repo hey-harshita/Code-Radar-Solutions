@@ -1,7 +1,7 @@
-findUnsortedSubarray(int arr[10000], int n) {
+int findUnsortedSubarray(int arr[10000], int n) {
     int l=0, r=n-1;
     while (l<n-1 && arr[l] <= arr[l+1]) l++;
-    if (i==n-1) return 0;
+    if (l==n-1) return 0;
     while (r>0 && arr[r] >= arr[r-1]) r--;
     int min_val = arr[l], max_val = arr[l];
     for (int i = l; i <= r; i++) {
