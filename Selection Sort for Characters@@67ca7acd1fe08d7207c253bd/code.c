@@ -7,7 +7,7 @@ selectionSort(char arr[], int n) {
             }
         }
         if (min_idx != i) {
-            int temp = arr[i];
+            char temp = arr[i];
             arr[i] = arr[min_idx];
             arr[min_idx] = temp;
         }
