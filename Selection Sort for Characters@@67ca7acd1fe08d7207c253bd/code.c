@@ -9,7 +9,7 @@ void selectionSort(char arr[], int n) {
                 swapped=1;
             }
         }
-        if (swapped=0) break;
+        if (swapped==0) break;
     }
 }
 
