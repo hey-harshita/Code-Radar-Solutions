@@ -6,6 +6,7 @@ void selectionSort(char arr[], int n) {
                 char temp = arr[i];
                 arr[i] = arr[j+1];
                 arr[j+1] = temp;
+                swapped=1;
             }
         }
         if (swapped=0) break;
